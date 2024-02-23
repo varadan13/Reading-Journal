@@ -38,4 +38,30 @@
 
 17. [https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
 
+## Local Storage Api
+
+```js
+// Storing data using setItem
+localStorage.setItem('username', 'john_doe');
+
+// Retrieving data using getItem
+const storedUsername = localStorage.getItem('username');
+
+// Removing data using removeItem
+localStorage.removeItem('username');
+
+// Clearing all data
+localStorage.clear();
+```
+
+### Understanding the Limitations of local storage
+
+1. **Non-Async Blocking API**: One significant drawback is that js localStorage operates as a non-async blocking API. This means that any operations performed on localStorage can potentially block the main thread, leading to slower application performance and a less responsive user experience.
+
+2. **Stringification Overhead**: Storing JSON data in localStorage requires stringifying the data before storage and parsing it when retrieved. This process introduces performance overhead, potentially slowing down operations by up to 10 times.
+
+3. **Storage Limit**: Browsers typically impose a storage limit of around 5 MiB for each origin's localStorage.
+
+------------------
+
 18. [https://semaphoreci.com/blog/htmx-react](https://semaphoreci.com/blog/htmx-react) 
