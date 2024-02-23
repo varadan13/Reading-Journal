@@ -32,7 +32,82 @@
 
 14. [https://arindam1729.hashnode.dev/private-routes-in-react?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://arindam1729.hashnode.dev/private-routes-in-react?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
-15. [https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
+15. [x] [https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
+
+## How to Improve Your ReactJS Code – Tips for Code Readability and Performance
+
+```js
+// constants.js or en.js
+const MESSAGES = { 
+    'HEADING': 'welcome to the website",
+    'ENTER_YOUR_NAME': 'Enter user name',
+    'HOME': [{
+        'HEADING': 'welcome to the home'
+     }]
+}
+
+Object.freeze(MESSAGES);
+
+export default MESSAGES;
+```
+
+```js
+// Don't do this:
+import React, { useState } from 'react';
+
+function CounterInline() {
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={handleIncrement}>Increment</button> 
+    </div>
+  );
+}
+
+export default CounterInline;
+
+
+```
+
+```js
+// Do this instead:
+import React, { useState } from 'react';
+
+// Standalone function for incrementing
+function incrementCount(currentCount, setCount) {
+  setCount(currentCount + 1);
+}
+
+const CounterStandalone = () => {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => incrementCount(count, setCount)}>Increment</button>
+    </div>
+  );
+}
+
+export default CounterStandalone;
+```
+
+> Summary
+Following the DRY principle
+Following the Single Responsibility Principle
+Creating a good user experience by loading the data progressively
+Improving readability
+Improving the developer experience
+Avoiding bugs at the development time
+Improving performance
+
+-----------------
 
 16. [x] [https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
  
