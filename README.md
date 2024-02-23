@@ -35,3 +35,7 @@
 15. [https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
 16. [https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
+
+17. [https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
+
+18. [https://semaphoreci.com/blog/htmx-react](https://semaphoreci.com/blog/htmx-react) 
