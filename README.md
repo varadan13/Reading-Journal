@@ -36,7 +36,7 @@
 
 16. [https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
-17. [https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
+17. [x] [https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
 
 ## Local Storage Api
 
@@ -64,4 +64,4 @@ localStorage.clear();
 
 ------------------
 
-18. [https://semaphoreci.com/blog/htmx-react](https://semaphoreci.com/blog/htmx-react) 
+18. [x] [https://semaphoreci.com/blog/htmx-react](https://semaphoreci.com/blog/htmx-react)  
