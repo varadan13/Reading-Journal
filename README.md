@@ -39,6 +39,7 @@
 ## How To Center a Div
 
 > Contains code snippets
+---
 
 17. [x] [https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
 
