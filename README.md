@@ -34,17 +34,17 @@
 
 15. [https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
-16. [x] ## How To Center a Div
-
-[https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
+16. [x] [https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
+ 
+## How To Center a Div
 
 > Contains code snippets
+>
 ---
 
-17. [x] ## Local Storage Api
+17. [x] [https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
 
-[https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
-
+## Local Storage Api
 
 ```js
 // Storing data using setItem
@@ -68,6 +68,8 @@ localStorage.clear();
 
 3. **Storage Limit**: Browsers typically impose a storage limit of around 5 MiB for each origin's localStorage.
 
+>
+>
 ------------------
 
 18. [x] [https://semaphoreci.com/blog/htmx-react](https://semaphoreci.com/blog/htmx-react)  
