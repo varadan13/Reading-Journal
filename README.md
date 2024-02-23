@@ -34,16 +34,17 @@
 
 15. [https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
-16. [x] [https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
+16. [x] ## How To Center a Div
 
-## How To Center a Div
+[https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.joshwcomeau.com/css/center-a-div/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
 > Contains code snippets
 ---
 
-17. [x] [https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
+17. [x] ## Local Storage Api
 
-## Local Storage Api
+[https://rxdb.info/articles/localstorage.html](https://rxdb.info/articles/localstorage.html)
+
 
 ```js
 // Storing data using setItem
