@@ -191,4 +191,11 @@ localStorage.clear();
 >
 ------------------
 
-18. [x] [https://semaphoreci.com/blog/htmx-react](https://semaphoreci.com/blog/htmx-react)  
+18. [x] [https://semaphoreci.com/blog/htmx-react](https://semaphoreci.com/blog/htmx-react)
+19. [x] [https://boz.com/articles/strength-weakness](https://boz.com/articles/strength-weakness)
+
+## Strength Dictates Weakness
+
+>> I have always considered communication a strength of mine. I enjoy speaking and writing, and do so often. I am forceful in championing my point of view. It took years to realize that I was “communicating” so much that I wasn’t listening. I was either drowning out my peers or waiting for my turn to speak.
+
+-----
