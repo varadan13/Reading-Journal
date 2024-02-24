@@ -47,7 +47,7 @@
 
 13. [https://adam.nels.onl/blog/maybe-everything-is-a-coroutine/](https://adam.nels.onl/blog/maybe-everything-is-a-coroutine/)
 
-14. [https://arindam1729.hashnode.dev/private-routes-in-react?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://arindam1729.hashnode.dev/private-routes-in-react?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
+14. [x] [https://arindam1729.hashnode.dev/private-routes-in-react?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://arindam1729.hashnode.dev/private-routes-in-react?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
 15. [x] [https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div](https://www.freecodecamp.org/news/improve-reactjs-code/?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=how-to-center-a-div)
 
