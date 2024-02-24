@@ -200,7 +200,7 @@ localStorage.clear();
 
 -----
 
-20 [x] [https://mikefisher.substack.com/p/listen-or-speak](https://mikefisher.substack.com/p/listen-or-speak)
+20. [x] [https://mikefisher.substack.com/p/listen-or-speak](https://mikefisher.substack.com/p/listen-or-speak)
 
 >> The blog post touches on Theodore Roosevelt's "speak softly and carry a big stick" approach to leadership, interpreting it as a call for emotional intelligence. Speaking softly, in this context, means not expressing excessive emotion, fostering open communication, and making tough decisions.
 
