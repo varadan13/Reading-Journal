@@ -31,6 +31,15 @@
 
 5. [https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/](https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/)
 
+## Google Updates Rel=Canonical Documentation
+
+> “Clarifying the extraction of rel=”canonical” annotations
+What: Clarified that rel=”canonical” annotations with certain attributes are not used for canonicalization.
+
+> Why: The rel=”canonical” annotations help Google determine which URL of a set of duplicates is the canonical. Adding certain attributes to the link element changes the meaning of the annotation to denote a different device or language version. This is a documentation change only; Google has always ignored these rel=”canonical” annotations for canonicalization purposes.
+
+----------
+
 6. [https://moz.com/blog/addictive-content](https://moz.com/blog/addictive-content)
 
 7. [https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies](https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies)
