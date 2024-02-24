@@ -29,7 +29,7 @@
 
 ------------
 
-5. [https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/](https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/)
+5. [x] [https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/](https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/)
 
 ## Google Updates Rel=Canonical Documentation
 
