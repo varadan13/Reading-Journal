@@ -56,7 +56,11 @@ What: Clarified that rel=”canonical” annotations with certain attributes are
 
 ** PSA — Problem Agitation Solution **
 
-7. [https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies](https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies)
+7. [x] [https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies](https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies)
+
+## ecommerce-link-building-strategies
+
+-----
 
 8. [https://learningseo.io/seo_roadmap/deepen-knowledge/content/content-pruning/](https://learningseo.io/seo_roadmap/deepen-knowledge/content/content-pruning/)
 
