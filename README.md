@@ -40,7 +40,21 @@ What: Clarified that rel=”canonical” annotations with certain attributes are
 
 ----------
 
-6. [https://moz.com/blog/addictive-content](https://moz.com/blog/addictive-content)
+6. [x] [https://moz.com/blog/addictive-content](https://moz.com/blog/addictive-content)
+
+## The Anatomy of Addictive Content
+> Craft engaging copy with hooks
+> In copy, a hook is an opening line that grabs the reader's attention and pulls them into the text.
+> Hooks can take various forms like:
+> A story  
+> An analogy   
+> A statistic or fact  
+> A misconception   
+> A vivid description of a problem or struggle
+
+** AIDA — Attention Interest Desire Action **
+
+** PSA — Problem Agitation Solution **
 
 7. [https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies](https://www.wix.com/seo/learn/resource/ecommerce-link-building-strategies)
 
