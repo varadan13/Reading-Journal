@@ -22,7 +22,12 @@
 >
 ----------
 
-4. [https://www.seroundtable.com/google-rankings-disavowing-toxic-links-36881.html](https://www.seroundtable.com/google-rankings-disavowing-toxic-links-36881.html)
+4. [x] [https://www.seroundtable.com/google-rankings-disavowing-toxic-links-36881.html](https://www.seroundtable.com/google-rankings-disavowing-toxic-links-36881.html)
+
+## Google: You Won't Get Your Rankings Back By Disavowing Toxic Links
+> Google's John Mueller said on Reddit that you won't get your Google search rankings back by simply disavowing toxic links from a Semrush report. He wrote, "You're not going to get your rankings back by following Semrush's report or by disavowing those links."
+
+------------
 
 5. [https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/](https://www.searchenginejournal.com/google-updates-relcanonical-documentation/508430/)
 
