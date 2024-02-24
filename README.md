@@ -199,3 +199,9 @@ localStorage.clear();
 >> I have always considered communication a strength of mine. I enjoy speaking and writing, and do so often. I am forceful in championing my point of view. It took years to realize that I was “communicating” so much that I wasn’t listening. I was either drowning out my peers or waiting for my turn to speak.
 
 -----
+
+20 [x] [https://mikefisher.substack.com/p/listen-or-speak](https://mikefisher.substack.com/p/listen-or-speak)
+
+>> The blog post touches on Theodore Roosevelt's "speak softly and carry a big stick" approach to leadership, interpreting it as a call for emotional intelligence. Speaking softly, in this context, means not expressing excessive emotion, fostering open communication, and making tough decisions.
+
+---
