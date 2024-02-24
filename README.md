@@ -8,7 +8,19 @@
 
 2. [https://www.phpied.com/bytes-normal-web-font-study-google-fonts/](https://www.phpied.com/bytes-normal-web-font-study-google-fonts/)
 
-3. [https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392](https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392)
+3. [x] [https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392](https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392)
+
+> 4 ways to use NLP techniques on your own content
+
+> Identify key entities in your content
+
+> Analyze user intent
+
+> Improve readability and engagement
+
+> Semantic analysis for content expansion
+>
+----------
 
 4. [https://www.seroundtable.com/google-rankings-disavowing-toxic-links-36881.html](https://www.seroundtable.com/google-rankings-disavowing-toxic-links-36881.html)
 
