@@ -205,3 +205,9 @@ localStorage.clear();
 >> The blog post touches on Theodore Roosevelt's "speak softly and carry a big stick" approach to leadership, interpreting it as a call for emotional intelligence. Speaking softly, in this context, means not expressing excessive emotion, fostering open communication, and making tough decisions.
 
 ---
+
+## Week of 19 Feb
+
+>>
+
+1. [https://www.yieldcode.blog/post/rendering-emails-with-svelte/?ck_subscriber_id=1921253367](https://www.yieldcode.blog/post/rendering-emails-with-svelte/?ck_subscriber_id=1921253367)
