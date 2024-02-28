@@ -58,3 +58,16 @@ OpenPDF to contract
 
 -------
 
+4. [x] [https://brooker.co.za/blog/2024/02/06/time.html](https://brooker.co.za/blog/2024/02/06/time.html)
+
+## How Do You Spend Your Time?
+
+```txt
+IC (individual contributor) work This includes writing code, reading code, reviewing code, debugging, testing, standing around a whiteboard talking code and design, writing design docs, reviewing design docs, and so on. The core stuff that is the practice of software engineering.
+Mentoring and Teaching This includes ad-hoc mentoring, standing one-on-ones2, and simply having time open on my calendar for the “do you have a few minutes to chat about my career?” conversations with folks near me. I also tend to put things like tech talks into this bucket.
+Strategic Stuff What are we doing next year? What do the next five years look like? Where are the industry trends going? What are the new things our customers are thinking about that seems like it could be big? What skills am I going to need? What skills are the folks in my organization going to need?
+Rhythm of Business This is the day-to-day. The way it looks has varied a lot over my career (more business reviews, less sprint planning), but includes everything involved in getting hands-on with the business. This includes the technical side (operations reviews, security meetings, looking into tickets and metrics, that kind of thing), money side (business reviews, etc), and people side (talent reviews, interviewing, and so on).
+Learning I put aside time during my work day to learn things, including reading papers, implementing algorithms I think are potentially important, reading books, and similar activities. This often feels hard to justify, but isn’t - over time I’ve gathered a good set of success stories of business value of me spending my time this way3.
+Customers I like talking to customers, and some of them like talking to me. Customers are the most important thing to stay connected to.
+```
+
