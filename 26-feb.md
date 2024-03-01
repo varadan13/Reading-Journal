@@ -162,3 +162,52 @@ There should be a concentrated effort to replace the packages causing this mess 
 Like Bundlephobia, there should be a website that lists the total number of packages you’ll end up downloading when you include the dependency. Hopefully, it will encourage the community to seek packages with fewer indirect dependencies.
 ```
 ----
+
+# Code snippet involving Promise.race and abortSignal;
+
+```ts
+export const m4aDuration = async (path: string): Promise<number> => {
+  const controller = new AbortController();
+  const duration = await Promise.race([
+    search(path, controller.signal),
+    search(path, controller.signal, true)
+  ]);
+  controller.abort();
+  return duration;
+};
+```
+
+This TypeScript code defines an asynchronous function `m4aDuration` that calculates the duration of an audio file in the M4A format. Let's break it down:
+
+1. **AbortController Initialization:**
+   ```typescript
+   const controller = new AbortController();
+   ```
+   An `AbortController` is created. This controller allows you to abort an asynchronous operation if needed.
+
+2. **Promise.race:**
+   ```typescript
+   const duration = await Promise.race([
+     search(path, controller.signal),
+     search(path, controller.signal, true)
+   ]);
+   ```
+   The `Promise.race` function is used to race between two promises. The promises are created by calling the `search` function with different parameters.
+
+   - `search(path, controller.signal)`: This is the first promise. It seems like a search operation for the given `path` using the `controller.signal` as an abort signal.
+   - `search(path, controller.signal, true)`: This is the second promise. It also involves a search operation with the same `path` and `controller.signal`, but with an additional boolean parameter set to `true`.
+
+   The `Promise.race` will resolve with the value of the first promise (either the result of the first search or the result of the second search, whichever finishes first).
+
+3. **Abort and Return:**
+   ```typescript
+   controller.abort();
+   return duration;
+   ```
+   The `controller.abort()` is called to abort any ongoing operations. This is important because the `Promise.race` only resolves with the value of the first completed promise, and the other ongoing promise should be aborted to avoid unnecessary computations.
+
+   Finally, the function returns the `duration` obtained from the resolved promise.
+
+Without the implementation of the `search` function, it's not possible to provide a complete understanding of what this code is doing. The `search` function likely involves some asynchronous operation related to determining the duration of the M4A audio file.
+
+----
