@@ -71,3 +71,94 @@ Learning I put aside time during my work day to learn things, including reading 
 Customers I like talking to customers, and some of them like talking to me. Customers are the most important thing to stay connected to.
 ```
 
+5. [x] [https://tkdodo.eu/blog/avoiding-hydration-mismatches-with-use-sync-external-store?ck_subscriber_id=1921253367](https://tkdodo.eu/blog/avoiding-hydration-mismatches-with-use-sync-external-store?ck_subscriber_id=1921253367)
+
+### Avoiding Hydration Mismatches with useSyncExternalStore
+
+```jsx
+    <span suppressHydrationWarning>
+      Last updated at: {date.toLocaleDateString()}
+    </span>
+```
+
+```jsx
+const useIsClient = () => {
+  const [isClient, setIsClient] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  return isClient;
+};
+
+const Component = () => {
+  const isClient = useIsClient();
+  if (!isClient) {
+    return null;
+  }
+  return <InnerComponent />;
+};
+```
+Improved useIsClient
+```jsx
+const useIsClient = () => {
+  const [isClient, setIsClient] = React.useState(!!window);
+
+  React.useEffect(() => {
+    if (!isClient){
+    setIsClient(true);
+   }
+  }, []);
+
+  return isClient;
+};
+
+const Component = () => {
+  const isClient = useIsClient();
+  if (!isClient) {
+    return null;
+  }
+  return <InnerComponent />;
+};
+```
+
+```jsx
+function ClientGate({ children }) {
+  const isServer = React.useSyncExternalStore(
+    emptySubscribe,
+    () => false,
+    () => true
+  )
+
+  return isServer ? null : children()
+}
+
+function App() {
+  return (
+    <main>
+      Hello Server
+      <ClientGate>{() => `Hello Client ${window.title}`}</ClientGate>
+    </main>
+  )
+}
+```
+
+----------
+
+6. [x] [https://shubhamjain.co/2024/02/29/why-is-number-package-have-59m-downloads/](https://shubhamjain.co/2024/02/29/why-is-number-package-have-59m-downloads/)
+
+## Why Does 'is-number' Package Have 59M Weekly Downloads?
+
+```txt
+tailwindcss -> chokidar -> braces -> fill-range -> to-regex-range -> is-number
+```
+
+```txt
+npm should differentiate between direct and indirect downloads. I am not certain if it’s possible with how npm works, but downloads triggered by a dependency don’t accurately reflect the popularity of the package. People who visit the npm page are usually unaware of how the numbers work.
+
+There should be a concentrated effort to replace the packages causing this mess with packages that inline their dependencies.
+
+Like Bundlephobia, there should be a website that lists the total number of packages you’ll end up downloading when you include the dependency. Hopefully, it will encourage the community to seek packages with fewer indirect dependencies.
+```
+----
